@@ -12,6 +12,8 @@
 
 Повышаем права, иначе система будет ругаться на отсутствие microk8s `su - $USER`
 
+Включаем dashboard `microk8s enable dashboard`
+Проверяем `microk8s status`
 
 2. Установка kubectl:
     - curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl;
