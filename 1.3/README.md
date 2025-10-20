@@ -43,8 +43,10 @@
 ---
 
 1. [deployment-init.yaml](./deployment-init.yaml)
-2. 
-3. 
-4. 
+2. nginx не стартует и ждет появления сервиса  
+![](./img/5.png)  
+3. [service-init.yaml](./service-init.yaml)  
+4. Состояние до и после запуска сервиса:  
+![](./img/6.png)  
 
 ---
