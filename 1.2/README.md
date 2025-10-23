@@ -15,7 +15,7 @@
 
 [netology-web.yaml](./pod-netology-web.yaml)  
 [netology-svc.yaml](./service-netology-svc.yaml)  
-![](./img/5.png)
-![](./img/6.png)
+![](./img/5.png)  
+![](./img/6.png)  
 
 ---
