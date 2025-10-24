@@ -13,8 +13,12 @@
 
 ### Решение 2
 
-1. [service-nodeport.yaml](./service-nodeport.yaml)  
-2. ![](./img/3.png)  
-3. ![](./img/4.png)
+1. [deployment-frontend.yaml](./deployment-frontend.yaml)
+   [deployment-backend.yaml](./deployment-backend.yaml)  
+2. [service-frontend.yaml](./service-frontend.yaml)
+   [service-backend.yaml](./service-backend.yaml)
+3. ![](./img/3.png)
+4. [ingress.yaml](./ingress.yaml)
+5. ![](./img/4.png)
 
 ---
