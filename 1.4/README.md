@@ -3,22 +3,22 @@
 
 ### Решение 1
 
-1. [deployment-multi-container.yaml](./deployment-multi-container.yaml)
-2. [service-clusterip.yaml](./service-clusterip.yaml)
-3. [service-nodeport.yaml](./service-nodeport.yaml)
-4. ![](./img/1.png)
-5. ![](./img/2.png)
+1. [deployment-multi-container.yaml](./deployment-multi-container.yaml)  
+2. [service-clusterip.yaml](./service-clusterip.yaml)  
+3. [service-nodeport.yaml](./service-nodeport.yaml)  
+4. ![](./img/1.png)  
+5. ![](./img/2.png)  
 
 ---
 
 ### Решение 2
 
-1. [deployment-frontend.yaml](./deployment-frontend.yaml)
+1. [deployment-frontend.yaml](./deployment-frontend.yaml)  
    [deployment-backend.yaml](./deployment-backend.yaml)  
-2. [service-frontend.yaml](./service-frontend.yaml)
-   [service-backend.yaml](./service-backend.yaml)
+2. [service-frontend.yaml](./service-frontend.yaml)  
+   [service-backend.yaml](./service-backend.yaml)  
 3. ![](./img/3.png)
-4. [ingress.yaml](./ingress.yaml)
+4. [ingress.yaml](./ingress.yaml)  
 5. ![](./img/4.png)
 
 ---
