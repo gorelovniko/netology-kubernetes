@@ -1,0 +1,20 @@
+microk8s enable ingress
+microk8s disable ingress
+
+kubectl get all,ingress
+
+kubectl apply -f ingress.yaml
+
+kubectl get pods -w
+
+
+sudo ss -tulnp | grep -E ':80|:443'
+
+
+echo 'export PATH=$PATH:/snap/bin' >> ~/.bashrc
+source ~/.bashrc
+
+microk8s status --wait-ready
+kubectl get nodes
+
+microk8s kubectl describe pod -n ingress nginx-ingress-microk8s-controller-g52q8
